@@ -18,11 +18,11 @@ import "./App.css";
 import "bootstrap/dist/css/bootstrap.min.css";
 
 function App() {
-  const [load, upadateLoad] = useState(true);
+  const [load, updateLoad] = useState(true); // Fixed typo here
 
   useEffect(() => {
     const timer = setTimeout(() => {
-      upadateLoad(false);
+      updateLoad(false); // Fixed typo here
     }, 1200);
 
     return () => clearTimeout(timer);
