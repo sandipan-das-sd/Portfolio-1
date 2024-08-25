@@ -317,6 +317,8 @@ html {
     
     .home-about-section {
       position: relative;
+      background-image: var(--image-gradient);
+      
       padding-bottom: 70px !important;
       padding-top: 70px !important;
     }
