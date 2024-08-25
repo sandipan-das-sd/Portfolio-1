@@ -6,12 +6,8 @@ html {
         #091812
       );
     
-      --image-gradient:linear-gradient(to bottom left, #1c1c22, #091812)
-      /* --image-gradient: linear-gradient(
-        to bottom left,
-        rgba(17, 16, 16, 0.678),
-        rgba(12, 10, 22, 0.863)
-      ); */
+      --image-gradient:linear-gradient(to bottom left, #1c1c22, #091812);
+     
     
       --imp-text-color: #00ff99;
     }
