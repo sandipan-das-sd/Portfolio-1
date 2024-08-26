@@ -44,7 +44,7 @@ function Home2() {
               <br />
               My field of interest includes building new &nbsp;
               <i>
-                <b className="purple">Web Technologies and Products</b> and
+                <b className="purple">Web ,App and Cloud Technologies and Products</b> and
                 exploring areas related to <b className="purple">Blockchain.</b>
               </i>
               <br />
