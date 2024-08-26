@@ -13,7 +13,7 @@ import {
   AiOutlineHome,
   AiOutlineFundProjectionScreen,
   AiOutlineUser,
-  AiOutlineContacts,
+ 
 } from "react-icons/ai";
 
 import { CgFileDocument } from "react-icons/cg";
@@ -41,7 +41,8 @@ function NavBar() {
     >
       <Container>
         <Navbar.Brand href="/" className="d-flex">
-          <img src={logo} className="img-fluid logo" alt="brand" />
+          <img src={logo} className="img-fluid logo" alt="brand"
+           />
         </Navbar.Brand>
         <Navbar.Toggle
           aria-controls="responsive-navbar-nav"
@@ -108,7 +109,7 @@ function NavBar() {
 
             <Nav.Item className="fork-btn" title="Git-Connect">
               <Button
-                href="https://github.com/Soumadip-cmd"
+                href="https://github.com/sandipan-das-sd"
                 target="_blank"
                 className="fork-btn-inner"
               >

@@ -14,16 +14,16 @@ function Footer() {
     <Container fluid className="footer">
       <Row>
         <Col md="4" className="footer-copywright">
-          <h3>Designed and Developed by Soumadip Santra</h3>
+          <h3>Designed and Developed by Sandipan Das</h3>
         </Col>
         <Col md="4" className="footer-copywright">
-          <h3>▨ Copyright © {year} SS.</h3>
+          <h3>▨ Copyright © {year} Sandipan Das.</h3>
         </Col>
         <Col md="4" className="footer-body">
           <ul className="footer-icons">
             <li className="social-icons">
               <a
-                href="https://github.com/Soumadip-cmd"
+                href="https://github.com/sandipan-das-sd"
                 style={{ color: "white" }}
                 target="_blank" 
                 rel="noopener noreferrer"
@@ -33,7 +33,7 @@ function Footer() {
             </li>
             <li className="social-icons">
               <a
-                href="https://facebook.com/SoumadipSantra"
+                href="https://www.facebook.com/sandipandas03/"
                 style={{ color: "white" }}
                 target="_blank" 
                 rel="noopener noreferrer"
@@ -43,7 +43,7 @@ function Footer() {
             </li>
             <li className="social-icons">
               <a
-                href="https://www.linkedin.com/in/soumadip-santra-121024258"
+                href="https://www.linkedin.com/in/sandipan-das-13968b1b0"
                 style={{ color: "white" }}
                 target="_blank" 
                 rel="noopener noreferrer"
@@ -53,7 +53,7 @@ function Footer() {
             </li>
             <li className="social-icons">
               <a
-                href="https://www.instagram.com/i_am_souma7889/"
+                href="https://www.instagram.com/sandipan____21/"
                 style={{ color: "white" }}
                 target="_blank" 
                 rel="noopener noreferrer"
