@@ -2,12 +2,12 @@ import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import ProjectCard from "./ProjectCards";
 import Particle from "../Particle";
-import leaf from "../../Assets/Projects/leaf.png";
-import emotion from "../../Assets/Projects/emotion.png";
-import editor from "../../Assets/Projects/codeEditor.png";
-import chatify from "../../Assets/Projects/chatify.png";
-import suicide from "../../Assets/Projects/suicide.png";
-import bitsOfCode from "../../Assets/Projects/blog.png";
+import leaf from "../../Assets/Projects/lms.png";
+import emotion from "../../Assets/Projects/qrcode.png";
+import editor from "../../Assets/Projects/ems.png";
+import chatify from "../../Assets/Projects/chatapp.png";
+import suicide from "../../Assets/Projects/merncrafters.png";
+import bitsOfCode from "../../Assets/Projects/sports.png";
 
 function Projects() {
   return (
