@@ -25,67 +25,72 @@ function Projects() {
             <ProjectCard
               imgPath={chatify}
               isBlog={false}
-              title="Chatify"
-              description="Personal Chat Room or Workspace to share resources and hangout with friends build with react.js, Material-UI, and Firebase. Have features which allows user for realtime messaging, image sharing as well as supports reactions on messages."
-              ghLink="https://github.com/soumyajit4419/Chatify"
-              demoLink="https://chatify-49.web.app/"
-            />
+              title="ChatApp"
+              description="A real-time chat application built using React.js, Node.js, Express, and MongoDB, styled with Tailwind CSS. This app enables seamless communication with features like instant messaging, user authentication, online status indicators, and real-time notifications. Leveraging Socket.IO, it ensures fast and reliable message delivery. The app's intuitive interface, powered by Tailwind CSS, offers an engaging user experience, making it easy to connect with friends and colleagues."
+              ghLink="https://github.com/sandipan-das-sd/ChatApp.git"
+              demoLink="https://chat-app-psi-three-33.vercel.app/" 
+          />
           </Col>
 
           <Col md={4} className="project-card">
-            <ProjectCard
-              imgPath={bitsOfCode}
+          <ProjectCard
+              imgPath={bitsOfCode} 
               isBlog={false}
-              title="Bits-0f-C0de"
-              description="My personal blog page build with Next.js and Tailwind Css which takes the content from makdown files and renders it using Next.js. Supports dark mode and easy to write blogs using markdown."
-              ghLink="https://github.com/soumyajit4419/Bits-0f-C0de"
-              demoLink="https://blogs.soumya-jit.tech/"
+              title="Sports Web App"
+              description="Developed a Sports Web App that provides comprehensive information about various sports, including news, scores, and player stats. The app features a modern UI and offers a responsive design for an optimal viewing experience on any device. This Web APP is particular for A speiicf client only"
+              ghLink="https://github.com/sandipan-das-sd/SportsWeb"
+              demoLink="https://sports-web-eta.vercel.app/"
             />
+
           </Col>
 
           <Col md={4} className="project-card">
-            <ProjectCard
+          <ProjectCard
               imgPath={editor}
               isBlog={false}
-              title="Editor.io"
-              description="Online code and markdown editor build with react.js. Online Editor which supports html, css, and js code with instant view of website. Online markdown editor for building README file which supports GFM, Custom Html tags with toolbar and instant preview.Both the editor supports auto save of work using Local Storage"
-              ghLink="https://github.com/soumyajit4419/Editor.io"
-              demoLink="https://editor.soumya-jit.tech/"              
+              title="Employee Management System"
+              description="A comprehensive Employee Management System built using React.js, Node.js, Express, and MongoDB. This application provides functionalities to manage employee data, including adding, updating, and deleting employee records. It also features a dashboard for viewing employee details, search and filter options, and role-based access control. The system is designed to streamline HR tasks, making it easier to handle employee information efficiently and securely."
+              ghLink="https://github.com/Soumadip-cmd/Employee--Management-.git"
+              demoLink="https://employee-management-sb5z.vercel.app/"
             />
+
           </Col>
 
           <Col md={4} className="project-card">
-            <ProjectCard
+          <ProjectCard
               imgPath={leaf}
               isBlog={false}
-              title="Plant AI"
-              description="Used the plant disease dataset from Kaggle and trained a image classifer model using 'PyTorch' framework using CNN and Transfer Learning with 38 classes of various plant leaves. The model was successfully able to detect diseased and healthy leaves of 14 unique plants. I was able to achieve an accuracy of 98% by using Resnet34 pretrained model."
-              ghLink="https://github.com/soumyajit4419/Plant_AI"
-              demoLink="https://plant49-ai.herokuapp.com/"
+              title="Learning Management System App"
+              description="An educational app designed to enhance learning experiences using interactive content. Built using modern web technologies, this app provides users with engaging lessons, quizzes, and resources to support a variety of educational topics. (GitHub and demo links are not available due to privacy concerns.)"
+              ghLink=""
+              demoLink=""
             />
+
+
           </Col>
 
           <Col md={4} className="project-card">
-            <ProjectCard
+          <ProjectCard
               imgPath={suicide}
               isBlog={false}
-              title="Ai For Social Good"
-              description="Using 'Natural Launguage Processing' for the detection of suicide-related posts and user's suicide ideation in cyberspace  and thus helping in sucide prevention."
-              ghLink="https://github.com/soumyajit4419/AI_For_Social_Good"
-              // demoLink="https://www.youtube.com/watch?v=dQw4w9WgXcQ&ab_channel=RickAstley" <--------Please include a demo link here
+              title="MERN Crafters Company Website"
+              description="A company website built using HTML, CSS, JavaScript, and Bootstrap. This project showcases modern web design and responsive layout techniques to create an engaging and professional online presence."
+              ghLink="https://github.com/sandipan-das-sd/MernCrafters.git"
+              demoLink="https://sandipan-das-sd.github.io/MernCrafters/"
             />
+
           </Col>
 
           <Col md={4} className="project-card">
-            <ProjectCard
+          <ProjectCard
               imgPath={emotion}
               isBlog={false}
-              title="Face Recognition and Emotion Detection"
-              description="Trained a CNN classifier using 'FER-2013 dataset' with Keras and tensorflow backened. The classifier sucessfully predicted the various types of emotions of human. And the highest accuracy obtained with the model was 60.1%.
-              Then used Open-CV to detect the face in an image and then pass the face to the classifer to predict the emotion of a person."
+              title="QR Code Generator"
+              description="Developed a QR Code Generator application using a CNN classifier trained on the 'FER-2013 dataset' with Keras and TensorFlow. The classifier achieved an accuracy of 60.1% in emotion detection. Integrated OpenCV for face detection, allowing the application to predict human emotions from images. The demo showcases the QR code generation functionality."
               ghLink="https://github.com/soumyajit4419/Face_And_Emotion_Detection"
-              // demoLink="https://blogs.soumya-jit.tech/"      <--------Please include a demo link here 
+              demoLink="https://sandipan-das-sd.github.io/qr_code_generator_sandipan/"
             />
+
           </Col>
         </Row>
       </Container>
