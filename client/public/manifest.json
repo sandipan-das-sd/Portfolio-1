@@ -1,19 +1,19 @@
 {
-  "short_name": "React App",
-  "name": "Create React App Sample",
+  "short_name": "Portfolio",
+  "name": "Portfolio Project",
   "icons": [
     {
-      "src": "favicon.ico",
+      "src": "https://scontent.fccu11-1.fna.fbcdn.net/v/t39.30808-6/346032557_279538481403524_8791235695533844688_n.jpg?_nc_cat=106&ccb=1-7&_nc_sid=a5f93a&_nc_ohc=P1QAhQ88I9UQ7kNvgHTyRo1&_nc_ht=scontent.fccu11-1.fna&oh=00_AYAtZt3DkkxN9XGZ2e8sst03u1xcYikrGC0B-YpxXOuaLw&oe=66D238D8",
       "sizes": "64x64 32x32 24x24 16x16",
       "type": "image/x-icon"
     },
     {
-      "src": "logo192.png",
+      "src": "https://scontent.fccu11-1.fna.fbcdn.net/v/t39.30808-6/346032557_279538481403524_8791235695533844688_n.jpg?_nc_cat=106&ccb=1-7&_nc_sid=a5f93a&_nc_ohc=P1QAhQ88I9UQ7kNvgHTyRo1&_nc_ht=scontent.fccu11-1.fna&oh=00_AYAtZt3DkkxN9XGZ2e8sst03u1xcYikrGC0B-YpxXOuaLw&oe=66D238D8",
       "type": "image/png",
       "sizes": "192x192"
     },
     {
-      "src": "logo512.png",
+      "src": "https://scontent.fccu11-1.fna.fbcdn.net/v/t39.30808-6/346032557_279538481403524_8791235695533844688_n.jpg?_nc_cat=106&ccb=1-7&_nc_sid=a5f93a&_nc_ohc=P1QAhQ88I9UQ7kNvgHTyRo1&_nc_ht=scontent.fccu11-1.fna&oh=00_AYAtZt3DkkxN9XGZ2e8sst03u1xcYikrGC0B-YpxXOuaLw&oe=66D238D8",
       "type": "image/png",
       "sizes": "512x512"
     }
