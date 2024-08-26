@@ -10,6 +10,7 @@ import {
   DiGit,
   DiJava,
 } from "react-icons/di";
+import { FaBrain } from "react-icons/fa";
 import {
   SiRedis,
   SiFirebase,
@@ -99,6 +100,9 @@ function Techstack() {
       </Col>
       <Col xs={4} md={2} className="tech-icons">
         <DiJava />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <FaBrain />
       </Col>
     </Row>
   );
