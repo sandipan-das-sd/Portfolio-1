@@ -11,6 +11,7 @@
     "chroma-js": "^3.0.0",
     "create-react-app": "^5.0.1",
     "emailjs-com": "^3.2.0",
+    "framer-motion": "^11.11.9",
     "pdfjs-dist": "^4.5.136",
     "react": "^18.3.1",
     "react-bootstrap": "^2.10.4",
