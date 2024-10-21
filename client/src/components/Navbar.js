@@ -218,6 +218,11 @@ function NavBar() {
                 <MdAddCall /> Contact
               </Nav.Link>
             </Nav.Item>
+            <Nav.Item>
+              <Nav.Link as={Link} to="/admin-login" onClick={() => setExpanded(false)}>
+                <MdAddCall /> Admin Login
+              </Nav.Link>
+            </Nav.Item>
             <Nav.Item className="fork-btn">
               <Button
                 href="https://github.com/sandipan-das-sd"

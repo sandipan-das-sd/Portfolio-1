@@ -71,6 +71,7 @@ import PrivacyPolicy from "./components/PrivacyPolicy";
 import TermsOfService from "./components/TermsOfService";
 import Contact from "./components/Contactpage";
 import Error404 from "./components/Error";
+import AdminLogin from "./components/AdminLogin";
 
 // SEO-enhanced Layout component
 const Layout = ({ children }) => (
@@ -118,6 +119,7 @@ function App() {
           <Route path="/resume" element={<Layout><Resume /></Layout>} />
           <Route path="/privacy-policy" element={<Layout><PrivacyPolicy/></Layout>} />
           <Route path="/terms-of-service" element={<Layout><TermsOfService/></Layout>} />
+          <Route path="/admin-login" element={<AdminLogin/>} />
           <Route path="/contact" element={<Layout><Contact/></Layout>} />
           <Route path="*" element={<Layout><Error404/></Layout>} />
         </Routes>
