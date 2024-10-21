@@ -67,6 +67,10 @@ import ScrollToTop from "./components/ScrollToTop";
 import "./style.css";
 import "./App.css";
 import "bootstrap/dist/css/bootstrap.min.css";
+import PrivacyPolicy from "./components/PrivacyPolicy";
+import TermsOfService from "./components/TermsOfService";
+import Contact from "./components/Contactpage";
+import Error404 from "./components/Error";
 
 // SEO-enhanced Layout component
 const Layout = ({ children }) => (
@@ -112,7 +116,10 @@ function App() {
           <Route path="/project" element={<Layout><Projects /></Layout>} />
           <Route path="/about" element={<Layout><About /></Layout>} />
           <Route path="/resume" element={<Layout><Resume /></Layout>} />
-          <Route path="*" element={<Navigate to="/"/>} />
+          <Route path="/privacy-policy" element={<Layout><PrivacyPolicy/></Layout>} />
+          <Route path="/terms-of-service" element={<Layout><TermsOfService/></Layout>} />
+          <Route path="/contact" element={<Layout><Contact/></Layout>} />
+          <Route path="*" element={<Layout><Error404/></Layout>} />
         </Routes>
       </div>
     </Router>
