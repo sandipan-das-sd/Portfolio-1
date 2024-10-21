@@ -10,7 +10,7 @@ export default function Admindetails() {
   useEffect(() => {
     const fetchContactData = async () => {
       try {
-        const response = await axios.get('http://localhost:5000/api/v1/contact');
+        const response = await axios.get('https://portfolio-1-5jex.onrender.com/api/v1/contact');
         setContactData(response.data.data);
         setIsLoading(false);
       } catch (err) {
