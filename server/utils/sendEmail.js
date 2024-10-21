@@ -16,14 +16,14 @@ const sendEmail = async (options) => {
     port: 465,
     secure: true,  // Use SSL
     auth: {
-      user: process.env.SMTP_MAIL,
-      pass: process.env.SMTP_PASSWORD
+      user: 'sd901656@gmail.com',
+      pass: "hsig xbwz ackw dzxq"
     }
   });
 
   // Prepare email message
   const message = {
-    from: `"${process.env.FROM_NAME || 'Default Name'}" <${process.env.SMTP_MAIL}>`,
+    from: `"${process.env.FROM_NAME || 'Default Name'}" <${'sd901656@gmail.com'}>`,
     to: options.email,
     subject: options.subject,
     text: options.message

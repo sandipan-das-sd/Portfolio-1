@@ -4,19 +4,7 @@ const cors = require('cors');
 const connectDB = require('./config/db');
 const contactRoutes = require('./routes/contactRoutes');
 
-// Load env vars
-dotenv.config({ path: './config/config.env' });
 
-const requiredEnvVars = ['SMTP_MAIL', 'SMTP_PASSWORD', 'FROM_NAME'];
-
-requiredEnvVars.forEach(varName => {
-  if (!process.env[varName]) {
-    console.error(`Missing required environment variable: ${varName}`);
-    process.exit(1);
-  }
-});
-
-console.log('All required environment variables are set.');
 
 // Connect to database
 connectDB();
