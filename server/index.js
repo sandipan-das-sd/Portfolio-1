@@ -1,5 +1,5 @@
 const express = require('express');
-const dotenv = require('dotenv');
+
 const cors = require('cors');
 const connectDB = require('./config/db');
 const contactRoutes = require('./routes/contactRoutes');
@@ -29,10 +29,10 @@ app.get('/api/health', (req, res) => {
   res.status(200).json({ message: 'API is running' });
 });
 
-const PORT = process.env.PORT || 5000;
+const PORT =  5000;
 
 app.listen(PORT, () => {
-  console.log(`Server running in ${process.env.NODE_ENV} mode on port ${PORT}`);
+  console.log(`Server running in  mode on port ${PORT}`);
 });
 
 // Error handling middleware

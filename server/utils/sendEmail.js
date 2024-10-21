@@ -23,7 +23,7 @@ const sendEmail = async (options) => {
 
   // Prepare email message
   const message = {
-    from: `"${process.env.FROM_NAME || 'Default Name'}" <${'sd901656@gmail.com'}>`,
+    from: `" 'Default Name'}" <${'sd901656@gmail.com'}>`,
     to: options.email,
     subject: options.subject,
     text: options.message
