@@ -1,30 +1,55 @@
-import React from 'react';
+import React, { useState, useEffect } from 'react';
+import axios from 'axios';
 import './Admindetails.css';
 
 export default function Admindetails() {
-  const adminData = [
-    { name: 'Sandipan Das', email: 'sd901656@gmail.com', message: 'Welcome to the admin panel!' },
-    { name: 'John Doe', email: 'johndoe@example.com', message: 'Checking admin privileges' },
-    // Add more data as needed
-  ];
+  const [contactData, setContactData] = useState([]);
+  const [isLoading, setIsLoading] = useState(true);
+  const [error, setError] = useState(null);
+
+  useEffect(() => {
+    const fetchContactData = async () => {
+      try {
+        const response = await axios.get('http://localhost:5000/api/v1/contact');
+        setContactData(response.data.data);
+        setIsLoading(false);
+      } catch (err) {
+        setError('Failed to fetch contact data. Please try again later.');
+        setIsLoading(false);
+        console.error('Error fetching contact data:', err);
+      }
+    };
+
+    fetchContactData();
+  }, []);
+
+  if (isLoading) {
+    return <div className="admin-details-container">Loading...</div>;
+  }
+
+  if (error) {
+    return <div className="admin-details-container error">{error}</div>;
+  }
 
   return (
     <div className="admin-details-container">
-      <h1>Admin Details</h1>
+      <h1>Contact Submissions</h1>
       <table className="admin-table">
         <thead>
           <tr>
             <th>Name</th>
             <th>Email</th>
             <th>Message</th>
+            <th>Date</th>
           </tr>
         </thead>
         <tbody>
-          {adminData.map((admin, index) => (
-            <tr key={index}>
-              <td>{admin.name}</td>
-              <td>{admin.email}</td>
-              <td>{admin.message}</td>
+          {contactData.map((contact) => (
+            <tr key={contact._id}>
+              <td>{contact.name}</td>
+              <td>{contact.email}</td>
+              <td>{contact.message}</td>
+              <td>{new Date(contact.createdAt).toLocaleString()}</td>
             </tr>
           ))}
         </tbody>
