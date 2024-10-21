@@ -72,6 +72,7 @@ import TermsOfService from "./components/TermsOfService";
 import Contact from "./components/Contactpage";
 import Error404 from "./components/Error";
 import AdminLogin from "./components/AdminLogin";
+import Admindetails from "./components/Admindetails";
 
 // SEO-enhanced Layout component
 const Layout = ({ children }) => (
@@ -121,6 +122,7 @@ function App() {
           <Route path="/terms-of-service" element={<Layout><TermsOfService/></Layout>} />
           <Route path="/admin-login" element={<AdminLogin/>} />
           <Route path="/contact" element={<Layout><Contact/></Layout>} />
+          <Route path="/access-page" element={<Layout><Admindetails/></Layout>} />
           <Route path="*" element={<Layout><Error404/></Layout>} />
         </Routes>
       </div>

@@ -1,39 +1,75 @@
-/* AdminLogin.css */
+/* Overall container styling for full-screen alignment */
 .admin-login-container {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
-    background-color: #f0f0f0; /* Change this to any preferred color */
-  }
-  /* AdminLogin.css */
-.admin-login-box {
-    background-color: white;
-    padding: 20px;
-    border-radius: 8px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-  }
-  input {
-    display: block;
-    width: 100%;
-    margin-bottom: 10px;
-    padding: 10px;
-    border: 1px solid #ccc;
-    border-radius: 4px;
-  }
-  button {
-    padding: 10px 15px;
-    background-color: #007bff;
-    color: white;
-    border: none;
-    border-radius: 4px;
-    cursor: pointer;
-  }
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background: linear-gradient(135deg, #f5f5f5, #e0e0e0); /* Subtle gradient for modern look */
+  font-family: 'Poppins', sans-serif;
+}
 
-  .admin-login-container {
-    background-color: #f5f5f5; /* Light color to avoid black screen */
-  }
-  #no-scroll {
-    display: none; /* Hide preloader */
-  }
-  
+/* Login box with shadow and rounded corners */
+.admin-login-box {
+  background-color: white;
+  padding: 40px;
+  border-radius: 12px;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1); /* Elevated shadow effect */
+  width: 350px;
+  text-align: center;
+  transition: transform 0.3s ease;
+}
+
+/* Add hover effect */
+.admin-login-box:hover {
+  transform: scale(1.02); /* Slight scaling on hover for interactivity */
+}
+
+/* Heading style */
+h2 {
+  margin-bottom: 20px;
+  font-size: 1.5rem;
+  color: #333;
+}
+
+/* Input fields with modern design */
+input {
+  width: 100%;
+  margin-bottom: 15px;
+  padding: 12px;
+  border: 1px solid #ddd;
+  border-radius: 6px;
+  font-size: 1rem;
+  box-sizing: border-box;
+  transition: border-color 0.3s ease;
+}
+
+/* Focus effect on input fields */
+input:focus {
+  border-color: #007bff;
+  outline: none;
+}
+
+/* Button styling for modern look */
+button {
+  width: 100%;
+  padding: 12px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+/* Hover effect on button */
+button:hover {
+  background-color: #0056b3;
+}
+
+/* Error message styling */
+.error {
+  color: red;
+  font-size: 0.9rem;
+  margin-top: 10px;
+}
