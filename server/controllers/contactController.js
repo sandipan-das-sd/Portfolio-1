@@ -14,7 +14,7 @@ exports.submitContact = async (req, res, next) => {
 
     // Send email to admin
     await sendEmail({
-      email: process.env.ADMIN_EMAIL,
+      email: 'sd901656@gmail.com',
       subject: 'New Contact Form Submission',
       message: `You have a new contact form submission from ${name} (${email}). Message: ${message}`
     });
