@@ -117,7 +117,7 @@ function Projects() {
       <Helmet>
         <title>Sandipan Das - Innovative Web Development Projects</title>
         <meta name="description" content="Explore Sandipan Das's portfolio of cutting-edge web development projects. From real-time chat applications to employee management systems, discover how these solutions can benefit your business." />
-        <meta name="keywords" content="Sandipan Das, Web Developer, React.js, Node.js, MongoDB, MERN Stack, Chat Application, Employee Management System, Sports Web App" />
+        <meta name="keywords" content="Sandipan Das, Web Developer, React.js, Node.js, MongoDB, MERN Stack, Chat Application, Employee Management System, Sports Web App,Web development,Mobile app development,Custom web apps,Responsive design,Cross-platform apps,Front-end development,Back-end development,Mobile UI/UX,Native apps,Hybrid apps,Web development company,Mobile development services,Full-stack development,Web technologies,Mobile technologies,App development agency,Web solutions,Mobile solutions,Web design and development,Mobile app design and development" />
         <link rel="canonical" href="https://sandipandas.blog/projects" />
       </Helmet>
       <Particle />
