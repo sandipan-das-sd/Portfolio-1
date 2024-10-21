@@ -146,9 +146,16 @@ import {
   AiFillFacebook,
 } from "react-icons/ai";
 import { FaLinkedinIn } from "react-icons/fa";
-
+import SEO from "../SEO";
 function Home2() {
   return (
+    <>
+    <SEO 
+        title="Sandipan Das - Full Stack Developer | MERN Expert in Barrackpore"
+        description="Sandipan Das, a skilled Full Stack Developer from Barrackpore, specializing in MERN stack, React Native, and AWS cloud solutions. Offering expert web and app development services in West Bengal."
+        keywords="Sandipan Das, Full Stack Developer, MERN Stack, React Native, AWS, Barrackpore, Shyamnagar, West Bengal, Web Developer, App Developer, Freelancer, Near Me"
+        canonicalUrl="/"
+      />
     <Container fluid className="home-about-section" id="about">
       <Helmet>
         <title>About Sandipan Das - Full Stack Developer & Tech Innovator</title>
@@ -248,6 +255,7 @@ function Home2() {
         </Row>
       </Container>
     </Container>
+    </>
   );
 }
 

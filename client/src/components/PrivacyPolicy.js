@@ -72,7 +72,7 @@
 // export default PrivacyPolicy;
 import React from 'react';
 import SharedPolicyLayout from './SharedPolicyLayout';
-
+import SEO from './SEO';
 const PrivacyPolicy = () => {
   const styles = {
     title: {
@@ -109,6 +109,13 @@ const PrivacyPolicy = () => {
   };
 
   return (
+    <>
+    <SEO 
+        title="Sandipan Das - Full Stack Developer | MERN Expert in Barrackpore"
+        description="Sandipan Das, a skilled Full Stack Developer from Barrackpore, specializing in MERN stack, React Native, and AWS cloud solutions. Offering expert web and app development services in West Bengal."
+        keywords="Sandipan Das, Full Stack Developer, MERN Stack, React Native, AWS, Barrackpore, Shyamnagar, West Bengal, Web Developer, App Developer, Freelancer, Near Me"
+        canonicalUrl="/"
+      />
     <SharedPolicyLayout
       title="Privacy Policy"
       description="Privacy Policy for sandipandas.blog. Learn how we collect, use, and protect your personal information on Sandipan Das's blog."
@@ -149,6 +156,7 @@ const PrivacyPolicy = () => {
       <h2 style={styles.heading}>Contact Us</h2>
       <p style={styles.paragraph}>If you have questions about our Privacy Policy or practices, please contact us at sd901656@gmail.com.</p>
     </SharedPolicyLayout>
+    </>
   );
 };
 

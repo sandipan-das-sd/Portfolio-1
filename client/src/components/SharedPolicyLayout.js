@@ -42,7 +42,7 @@
 import React from 'react';
 import { Container } from 'react-bootstrap';
 import { Helmet } from 'react-helmet';
-
+import SEO from './SEO';
 const SharedPolicyLayout = ({ children, title, description, keywords }) => {
   const styles = {
     container: {
@@ -70,6 +70,13 @@ const SharedPolicyLayout = ({ children, title, description, keywords }) => {
   const fullTitle = `${title} - Sandipan Das`;
 
   return (
+    <>
+    <SEO 
+        title="Sandipan Das - Full Stack Developer | MERN Expert in Barrackpore"
+        description="Sandipan Das, a skilled Full Stack Developer from Barrackpore, specializing in MERN stack, React Native, and AWS cloud solutions. Offering expert web and app development services in West Bengal."
+        keywords="Sandipan Das, Full Stack Developer, MERN Stack, React Native, AWS, Barrackpore, Shyamnagar, West Bengal, Web Developer, App Developer, Freelancer, Near Me"
+        canonicalUrl="/"
+      />
     <div style={styles.container}>
       <Helmet>
         <title>{fullTitle}</title>
@@ -90,6 +97,7 @@ const SharedPolicyLayout = ({ children, title, description, keywords }) => {
         </main>
       </Container>
     </div>
+    </>
   );
 };
 

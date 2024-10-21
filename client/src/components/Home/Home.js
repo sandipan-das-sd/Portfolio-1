@@ -140,8 +140,8 @@ function Home() {
     <section>
       <Helmet>
         <title>Sandipan Das - Full Stack Developer | Web & App Development Expert</title>
-        <meta name="description" content="Sandipan Das is a skilled Full Stack Developer specializing in MERN stack, web and app development. Explore my portfolio, projects, and expertise in creating innovative digital solutions." />
-        <meta name="keywords" content="Sandipan Das, Full Stack Developer, Web Developer, App Developer, MERN Stack, React.js, Node.js, MongoDB, Express.js, JavaScript, HTML, CSS, Portfolio" />
+        <meta name="description" content="Sandipan Das, a skilled Full Stack Developer from Barrackpore, specializing in MERN stack, React Native, and AWS cloud solutions. Offering expert web and app development services in West Bengal." />
+        <meta name="keywords" content="Sandipan Das, Full Stack Developer, MERN Stack, React Native, AWS, Barrackpore, Shyamnagar, West Bengal, Web Developer, App Developer, Freelancer, Near Me" />
         <meta name="author" content="Sandipan Das" />
         <link rel="canonical" href="https://sandipandas.blog" />
         <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap" rel="stylesheet" />

@@ -77,8 +77,8 @@ const Layout = ({ children }) => (
   <>
     <Helmet>
       <title>Sandipan Das - Full Stack Developer | Web & App Developer</title>
-      <meta name="description" content="Sandipan Das is a skilled full stack developer specializing in web and app development. Explore projects, skills, and experience in MERN stack, React.js, Node.js, and more." />
-      <meta name="keywords" content="Sandipan Das, full stack developer, web developer, app developer, MERN stack, React.js, Node.js, MongoDB, Express.js, JavaScript, HTML, CSS" />
+      <meta name="description" content="Sandipan Das, a skilled Full Stack Developer from Barrackpore, specializing in MERN stack, React Native, and AWS cloud solutions. Offering expert web and app development services in West Bengal" />
+      <meta name="keywords" content="Sandipan Das, Full Stack Developer, MERN Stack, React Native, AWS, Barrackpore, Shyamnagar, West Bengal, Web Developer, App Developer, Freelancer, Near Me" />
       <meta name="author" content="Sandipan Das" />
       <link rel="canonical" href="https://sandipandas.blog" />
       <meta property="og:title" content="Sandipan Das - Full Stack Developer Portfolio" />

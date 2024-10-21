@@ -59,14 +59,20 @@ import Techstack from "./Techstack";
 import Aboutcard from "./AboutCard";
 import laptopImg from "../../Assets/about.png";
 import Toolstack from "./Toolstack";
-
+import SEO from "../SEO";
 function About() {
   return (
     <Container fluid className="about-section">
       <Helmet>
         <title>About Me | Full Stack Developer | MERN Stack Expert</title>
-        <meta name="description" content="Learn about my journey as a Full Stack Developer specializing in MERN stack, React.js, and cloud technologies. Discover my professional skillset and the cutting-edge tools I use to create innovative web solutions." />
-        <meta name="keywords" content="Full Stack Developer, MERN Stack, React.js, Node.js, MongoDB, Express.js, AWS, Web Development, App Development" />
+        <meta name="description" content="Sandipan Das, a skilled Full Stack Developer from Barrackpore, specializing in MERN stack, React Native, and AWS cloud solutions. Offering expert web and app development services in West Bengal." />
+        <meta name="keywords" content="Sandipan Das, Full Stack Developer, MERN Stack, React Native, AWS, Barrackpore, Shyamnagar, West Bengal, Web Developer, App Developer, Freelancer, Near Me" />
+        <SEO 
+        title="Sandipan Das - Full Stack Developer | MERN Expert in Barrackpore"
+        description="Sandipan Das, a skilled Full Stack Developer from Barrackpore, specializing in MERN stack, React Native, and AWS cloud solutions. Offering expert web and app development services in West Bengal."
+        keywords="Sandipan Das, Full Stack Developer, MERN Stack, React Native, AWS, Barrackpore, Shyamnagar, West Bengal, Web Developer, App Developer, Freelancer, Near Me"
+        canonicalUrl="/"
+      />
         <link rel="canonical" href="https://sandipandas.blog/about" />
       </Helmet>
       <Particle />

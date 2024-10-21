@@ -43,9 +43,17 @@ import Card from "react-bootstrap/Card";
 import Button from "react-bootstrap/Button";
 import { CgWebsite } from "react-icons/cg";
 import { BsGithub } from "react-icons/bs";
-
+import { ImOpt } from "react-icons/im";
+import SEO from "../SEO";
 function ProjectCards(props) {
   return (
+    <>
+    <SEO 
+        title="Sandipan Das - Full Stack Developer | MERN Expert in Barrackpore"
+        description="Sandipan Das, a skilled Full Stack Developer from Barrackpore, specializing in MERN stack, React Native, and AWS cloud solutions. Offering expert web and app development services in West Bengal."
+        keywords="Sandipan Das, Full Stack Developer, MERN Stack, React Native, AWS, Barrackpore, Shyamnagar, West Bengal, Web Developer, App Developer, Freelancer, Near Me"
+        canonicalUrl="/"
+      />
     <Card className="project-card-view">
       <Card.Img variant="top" src={props.imgPath} alt={`${props.title} - Project by Sandipan Das`} />
       <Card.Body>
@@ -79,6 +87,7 @@ function ProjectCards(props) {
         </div>
       </Card.Body>
     </Card>
+    </>
   );
 }
 

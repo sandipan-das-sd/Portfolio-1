@@ -93,7 +93,7 @@ import { motion } from 'framer-motion';
 import { Helmet } from 'react-helmet';
 import { FaPaperPlane, FaUser, FaEnvelope, FaComment } from 'react-icons/fa';
 import './Contact.css';
-
+import SEO from './SEO';
 const Contact = () => {
   const [formData, setFormData] = useState({ name: '', email: '', message: '' });
 
@@ -108,6 +108,13 @@ const Contact = () => {
   };
 
   return (
+    <>
+    <SEO 
+        title="Sandipan Das - Full Stack Developer | MERN Expert in Barrackpore"
+        description="Sandipan Das, a skilled Full Stack Developer from Barrackpore, specializing in MERN stack, React Native, and AWS cloud solutions. Offering expert web and app development services in West Bengal."
+        keywords="Sandipan Das, Full Stack Developer, MERN Stack, React Native, AWS, Barrackpore, Shyamnagar, West Bengal, Web Developer, App Developer, Freelancer, Near Me"
+        canonicalUrl="/"
+      />
     <div className="contact-container mt-5">
       <Helmet>
         <title>Contact - Sandipan Das</title>
@@ -171,6 +178,7 @@ const Contact = () => {
         </div>
       </motion.div>
     </div>
+    </>
   );
 };
 

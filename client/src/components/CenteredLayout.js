@@ -31,9 +31,16 @@
 // export default CenteredLayout;
 import React from 'react';
 import { motion } from 'framer-motion';
-
+import SEO from './SEO';
 const CenteredLayout = ({ children }) => {
   return (
+    <>
+    <SEO 
+        title="Sandipan Das - Full Stack Developer | MERN Expert in Barrackpore"
+        description="Sandipan Das, a skilled Full Stack Developer from Barrackpore, specializing in MERN stack, React Native, and AWS cloud solutions. Offering expert web and app development services in West Bengal."
+        keywords="Sandipan Das, Full Stack Developer, MERN Stack, React Native, AWS, Barrackpore, Shyamnagar, West Bengal, Web Developer, App Developer, Freelancer, Near Me"
+        canonicalUrl="/"
+      />
     <div className="min-h-screen flex items-center justify-center bg-gradient-to-br from-blue-100 to-purple-100">
       <motion.div
         initial={{ opacity: 0, y: 20 }}
@@ -48,6 +55,7 @@ const CenteredLayout = ({ children }) => {
         </div>
       </motion.div>
     </div>
+    </>
   );
 };
 

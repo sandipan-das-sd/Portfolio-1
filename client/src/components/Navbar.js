@@ -142,7 +142,7 @@ import {
   AiOutlineUser,
 } from "react-icons/ai";
 import { CgFileDocument } from "react-icons/cg";
-
+import SEO from "./SEO";
 function NavBar() {
   const [expand, setExpanded] = useState(false);
   const [navColour, updateNavbar] = useState(false);
@@ -164,6 +164,13 @@ function NavBar() {
   }, []);
 
   return (
+    <>
+    <SEO 
+        title="Sandipan Das - Full Stack Developer | MERN Expert in Barrackpore"
+        description="Sandipan Das, a skilled Full Stack Developer from Barrackpore, specializing in MERN stack, React Native, and AWS cloud solutions. Offering expert web and app development services in West Bengal."
+        keywords="Sandipan Das, Full Stack Developer, MERN Stack, React Native, AWS, Barrackpore, Shyamnagar, West Bengal, Web Developer, App Developer, Freelancer, Near Me"
+        canonicalUrl="/"
+      />
     <Navbar
       expanded={expand}
       fixed="top"
@@ -225,6 +232,7 @@ function NavBar() {
         </Navbar.Collapse>
       </Container>
     </Navbar>
+    </>
   );
 }
 

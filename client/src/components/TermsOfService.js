@@ -110,7 +110,7 @@
 // export default TermsOfService;
 import React from 'react';
 import SharedPolicyLayout from './SharedPolicyLayout';
-
+import SEO from './SEO';
 const TermsOfService = () => {
   const styles = {
     title: {
@@ -140,6 +140,13 @@ const TermsOfService = () => {
   };
 
   return (
+    <>
+    <SEO 
+        title="Sandipan Das - Full Stack Developer | MERN Expert in Barrackpore"
+        description="Sandipan Das, a skilled Full Stack Developer from Barrackpore, specializing in MERN stack, React Native, and AWS cloud solutions. Offering expert web and app development services in West Bengal."
+        keywords="Sandipan Das, Full Stack Developer, MERN Stack, React Native, AWS, Barrackpore, Shyamnagar, West Bengal, Web Developer, App Developer, Freelancer, Near Me"
+        canonicalUrl="/"
+      />
     <SharedPolicyLayout
       title="Terms of Service"
       description="Terms of Service for Sandipan Das's blog. Read our terms and conditions for using sandipandas.blog."
@@ -170,6 +177,7 @@ const TermsOfService = () => {
       <h2 style={styles.heading}>Contact Information</h2>
       <p style={styles.paragraph}>If you have any questions about these Terms, please contact us at sd901656@gmail.com.</p>
     </SharedPolicyLayout>
+    </>
   );
 };
 
